@@ -19,7 +19,8 @@
       <span class="brandmark">⚙</span><span>Calvin's <span>Tech Support</span></span>
     </a>
     <nav class="desktop-nav" aria-label="Main navigation"><a class="" href="index.html">Home</a><a class="" href="services.html">Services</a><a class="" href="problems.html">Problems</a><a class="" href="prices.html">Prices</a><a class="" href="gallery.html">Gallery</a><a class="" href="diagnostics.html">Diagnostics</a><a class="active" href="faq.html">FAQ</a><a class="pill" href="https://wa.me/27683947321?text=Hi%20Calvin%2C%20I%20need%20tech%20support" target="_blank" rel="noopener">WhatsApp</a></nav>
-    <button class="menu-btn" data-menu aria-label="Open menu">Menu</button>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">🌙 <span class="theme-label">Dark</span></button>
+      <button class="menu-btn" data-menu aria-label="Open menu">Menu</button>
   </div>
 </header>
 <aside class="mobile-panel" aria-label="Mobile menu">
@@ -79,6 +80,19 @@
   </div>
 </section>
 
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow dark">Website display settings</div>
+        <h2>New: Dark mode and accent colour</h2>
+        <p>Visitors can now switch between light and dark mode, and choose a small accent colour preference. The website remembers the choice on that device.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <a class="float-wa" href="https://wa.me/27683947321?text=Hi%20Calvin%2C%20I%20need%20tech%20support" target="_blank" rel="noopener" aria-label="WhatsApp Calvin">WA</a>
 <footer class="footer">
   <div class="container footer-grid">
@@ -98,6 +112,23 @@
     </div>
   </div>
 </footer>
+
+<button class="settings-fab" type="button" data-settings-toggle aria-label="Open display settings">⚙️</button>
+<div class="settings-panel" aria-label="Display settings">
+  <h3>Display Settings</h3>
+  <p>Choose the look you prefer. Your choice is saved on this device.</p>
+  <div class="settings-grid">
+    <button class="settings-option" type="button" data-theme-choice="light">☀️ Light mode</button>
+    <button class="settings-option" type="button" data-theme-choice="dark">🌙 Dark mode</button>
+  </div>
+  <p style="margin-top:1rem;margin-bottom:.35rem;font-weight:800;">Accent colour</p>
+  <div class="accent-row">
+    <button class="accent-dot accent-orange" type="button" data-accent-choice="orange" aria-label="Orange accent"></button>
+    <button class="accent-dot accent-blue" type="button" data-accent-choice="blue" aria-label="Blue accent"></button>
+    <button class="accent-dot accent-green" type="button" data-accent-choice="green" aria-label="Green accent"></button>
+  </div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
