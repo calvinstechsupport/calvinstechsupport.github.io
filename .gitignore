@@ -1,0 +1,19 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*recovery-codes*
+*recovery_codes*
+*backup-codes*
+*backup_codes*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local/editor/system output
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
